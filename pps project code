@@ -303,4 +303,4 @@ void exponential()
     printf("Enter the number to find its exponential value\n");
     scanf("%f", &value);
     printf("The value of exp(%f) : %f \n",value, exp(value));
-}
+ }
