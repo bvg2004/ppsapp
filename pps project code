@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 #include<math.h>
 #define pi 3.1428
 void add_numbers();
@@ -298,7 +298,7 @@ void logrithmic()
     }
 }
 void exponential()
-{
+{ 
     float value;
     printf("Enter the number to find its exponential value\n");
     scanf("%f", &value);
