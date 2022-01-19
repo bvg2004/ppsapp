@@ -1,8 +1,4 @@
-/*
-	C PROGRAM TO IMPLEMENT SCIENTIFIC CALCULATOR
-	AUTHOR:: SREEPARNA RAY
-	DATE:: 5TH SEP,2021
-*/
+
 
 #include<stdio.h>
 #include<stdlib.h>
