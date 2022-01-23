@@ -1,92 +1,92 @@
 1.start
-3.display the main menu
-4.read choice
-5.if choice=1/2/3/5
- 5.1 Declare and initialize variables i,num,sum=0.
- 5.2  Enter the number of numbers to be added/subtracted/multiplied or to get average value.
- 5.3 Use for Loops to take n numbers from user and to add/subtract/multiply them
- 5.4 for average add the numbers and divide it by n.
- 5.4 Print the solution.
- 5.5 Stop.
-6. else if choice = 4
- 6.1 read the inputs dividend and divisor from the user
- 6.2 compute div=dividend/divisor.
+2.display the main menu
+3.read choice
+4.if choice=1/2/3/5
+ 4.1 Declare and initialize variables i,num,sum=0.
+ 4.2  Enter the number of numbers to be added/subtracted/multiplied or to get average value.
+ 4.3 Use for Loops to take n numbers from user and to add/subtract/multiply them
+ 4.4 for average add the numbers and divide it by n.
+ 4.5 Print the solution.
+ 4.6 Stop.
+5. else if choice = 4
+ 5.1 read the inputs dividend and divisor from the user
+ 5.2 compute div=dividend/divisor.
+ 5.3 print the solution
+ 5.4 stop
+6.else if choice = 6
+ 6.1 declare and initialize variable,i,square.
+ 6.2 Use the sqrt() function to get the square root of the input number.
  6.3 print the solution
  6.4 stop
-7.else if choice = 6
- 7.1 declare and initialize variable,i,square.
- 7.2 Use the sqrt() function to get the square root of the input number.
- 7.3 print the solution
- 7.4 stop
-8. else if choice = 7
- 8.1 declare and initialize variables n,i,pwr,result.
- 8.2 Enter base value and exponent value.
- 8.3 Use for loop to multiply n(n times) 
- 8.4 print the solution.
- 8.5 Stop.
-9. Else if choice = 8
- 9.1 read a, b, c values
- 9.2 Compute discriminant = b^2-4ac
- 9.3 if discriminant > 0 then
+7. else if choice = 7
+ 7.1 declare and initialize variables n,i,pwr,result.
+ 7.2 Enter base value and exponent value.
+ 7.3 Use for loop to multiply n(n times) 
+ 7.4 print the solution.
+ 7.5 Stop.
+8. Else if choice = 8
+ 8.1 read a, b, c values
+ 8.2 Compute discriminant = b^2-4ac
+ 8.3 if discriminant > 0 then
       root1 = b+sqrt (d)/(2*a)
        root2 = b-sqrt(d)/(2*a)
- 9.4 Otherwise if discriminant = 0 then
+ 8.4 Otherwise if discriminant = 0 then
      compute root1 = -b/2a, root2 = -b/2a
- 9.5 if discriminant<0
+ 8.5 if discriminant<0
      compute root1 = (-b+i*sqrt(-discriminant))/(2*a),root2=(-b-i*sqrt(-discriminant))/(2*a)
- 9.6 print root1,root2 values
- 9.7 Stop
-10. else if choice = 9/10/11
- 10.1 declare and initialize the variables angle_radian,angle_degree
- 10.2 read the angle in degrees
- 10.3 compute angle_radian = (angle_degree*PI)/180;
- 10.4 use sin(),cos(),tan() to print the values of trigonometric funtions.
+ 8.6 print root1,root2 values
+ 8.7 Stop
+9. else if choice = 9/10/11
+ 9.1 declare and initialize the variables angle_radian,angle_degree
+ 9.2 read the angle in degrees
+ 9.3 compute angle_radian = (angle_degree*PI)/180;
+ 9.4 use sin(),cos(),tan() to print the values of trigonometric funtions.
+ 9.5 stop
+10. else if choice = 12/13/14
+ 10.1 declare and initialize the variables j,result;
+ 10.2 read j value
+ 10.3 compute  result = asin(j)*(180/PI)/acos(j)*(180/PI)/atan(j)*(180/PI) for inverse sin,inverse cos and inverse tan respectively ;
+ 10.4 print result
  10.5 stop
-11. else if choice = 12/13/14
- 11.1 declare and initialize the variables j,result;
- 11.2 read j value
- 11.3 compute  result = asin(j)*(180/PI)/acos(j)*(180/PI)/atan(j)*(180/PI) for inverse sin,inverse cos and inverse tan respectively ;
- 11.4 print result
- 11.5 stop
-12. else if choice = 15/16/17
- 12.1 declare and initialize the variables n,result;
- 12.2 read n value
- 12.3 compute result=ln(n)/log10(n)/exp(n) to get the logarithmic and exponential values respectively.
- 12.4 stop
-13 else if choice =18/19
- 13.1 declare and initialize the variables n,r,result.
- 13.2 read n,r values
- 13.3 compute result=fact(n)/fact(n-r) for perumtation and result =fact(n)/fact(n-r)*fact(r)
- 13.4 print result
- 13.5 stop
-14. else if choice = 20
- 14.1  read the number n
- 14.2 [initialize]
+11. else if choice = 15/16/17
+ 11.1 declare and initialize the variables n,result;
+ 11.2 read n value from user
+ 11.3 compute result=ln(n)/log10(n)/exp(n) to get the logarithmic and exponential values respectively.
+ 11.4 stop
+12 else if choice =18/19
+ 12.1 declare and initialize the variables n,r,result.
+ 12.2 read n,r values
+ 12.3 compute result=fact(n)/fact(n-r) for perumtation and result =fact(n)/fact(n-r)*fact(r)
+ 12.4 print result
+ 12.5 stop
+13. else if choice = 20
+ 13.1  read the number n
+ 13.2 [initialize]
        i=n,fact=1
- 14.3 repeat until i>=1;
+ 13.3 repeat until i>=1;
      13.3.1 fact=fact.i
      13.3.2 i=i-1
- 14.4 print fact
- 14.5 stop
-15. else if choice = 21
- 15.1 read the number n
- 15.2 if n%2==0 is even print "n is an prime number".else print "n is an odd number".
- 15.3 stop
-16. else if choice =22
- 16.1 initialize variables i=2,n
- 16.2 read n from user
- 16.3 if(n%i==0) 
+ 13.4 print fact
+ 13.5 stop
+14. else if choice = 21
+ 14.1 read the number n
+ 14.2 if n%2==0 is even print "n is an prime number".else print "n is an odd number".
+ 14.3 stop
+15. else if choice =22
+ 15.1 initialize variables i=2,n
+ 15.2 read n from user
+ 15.3 if(n%i==0) 
        break;
- 16.4 if(i==n) display "n is a prime number".else display "n is not a prime number"
- 16.5 stop
-17 else if choice = 23
- 17.1 choose whether to convert degrees to radians or radians to degrees
- 17.2 read n from user
- 17.3 compute rad=(n*PI)/180 to convert radians to degrees and degree=(180*n)/PI to convert degrees to radians
- 17.4 print the solution
- 17.4 stop   
-18. use getch() to hold the output screen for some time until the user passes a key and to continue to main menu.
-19. else display "Invalid Choice! Press any key to continue.."
-  19.1 display "\n\n\t\t\tDo you want to continue. y/n?  "
-  19.2 if user enters y or Y.it will return to main menu.else it exits from the application.
-20. exit
+ 15.4 if(i==n) display "n is a prime number".else display "n is not a prime number"
+ 15.5 stop
+16else if choice = 23
+ 16.1choose whether to convert degrees to radians or radians to degrees
+ 16.2 read n from user
+ 16.3 compute rad=(n*PI)/180 to convert radians to degrees and degree=(180*n)/PI to convert degrees to radians
+ 16.4 print the solution
+ 16.4 stop   
+17. use getch() to hold the output screen for some time until the user passes a key and to continue to main menu.
+18. else display "Invalid Choice! Press any key to continue.."
+  18.1 display "\n\n\t\t\tDo you want to continue. y/n?  "
+  18.2 if user enters y or Y.it will return to main menu.else it exits from the application.
+19. exit
